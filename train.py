@@ -26,7 +26,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--epochs", type=int, default=100, help="number of epochs")
     parser.add_argument("--batch_size", type=int, default=4, help="size of each image batch")
-    parser.add_argument("--model_def", type=str, default="cfg/4scales.cfg",
+    parser.add_argument("--model_def", type=str, default="cfg/3scales.cfg",
                         help="path to model definition file")
     parser.add_argument("--data_config", type=str, default="cfg/voc.data", help="path to data config file")
 
